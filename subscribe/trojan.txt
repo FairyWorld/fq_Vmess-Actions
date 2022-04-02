@@ -1,3 +1,2 @@
 proxies:
-- {"name":"🇺🇸US_3833 |187.94Mb","server":"misaka1433.tk","type":"trojan","country":"🇺🇸US","port":443,"password":"JAtFrEpLX8mryvu8","skip-cert-verify":true,"udp":true}
-- {"name":"🇺🇸US_3843 |72.30Mb","server":"tj-us02.yiyodns.xyz","type":"trojan","country":"🇺🇸US","port":443,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","skip-cert-verify":true,"udp":true}
+- {"name":"🇺🇸US_3149 |72.30Mb","server":"tj-us02.yiyodns.xyz","type":"trojan","country":"🇺🇸US","port":443,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","skip-cert-verify":true,"udp":true}
