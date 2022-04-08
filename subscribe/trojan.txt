@@ -1,3 +1,2 @@
 proxies:
-- {"name":"🇺🇸US_2311 |35.88Mb","server":"ss.2024.ml","type":"trojan","country":"🇺🇸US","port":8443,"password":"41921e78-cee5-4c88-9503-43d8c0e9d5b2","skip-cert-verify":true,"udp":true}
-- {"name":"🇺🇸US_2312 |108.74Mb","server":"sn.2024.ml","type":"trojan","country":"🇺🇸US","port":4443,"password":"41921e78-cee5-4c88-9503-43d8c0e9d5b2","skip-cert-verify":true,"udp":true}
+- {"name":"🇦🇺AU_85 |32.10Mb","server":"jgwdb4.gaox.ml","type":"trojan","country":"🇦🇺AU","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","skip-cert-verify":true,"udp":true}
