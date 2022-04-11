@@ -20,18 +20,7 @@ proxies:
   - {name: JP_802 |32.60Mb, server: jpaz2.xmrth-node.xyz, port: 10674, type: vmess, uuid: 453dfa48-d477-3eef-b791-fc1fddc17ae3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: www.baidu.com, network: ws, ws-opts: {path: /index, headers: {Host: jpaz2.xmrth-node.xyz}}}
   - {name: JP_805 |32.48Mb, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 45.77.22.155}
   - {name: LT_881 |40.86Mb, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_902 |34.33Mb, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_903 |40.68Mb, server: 213.183.53.177, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_907 |36.55Mb, server: 213.183.53.177, port: 9008, type: ssr, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_908 |41.04Mb, server: 213.183.53.177, port: 9000, type: ssr, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_910 |35.31Mb, server: 213.183.53.177, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_913 |40.33Mb, server: 213.183.53.177, port: 9005, type: ssr, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_914 |35.58Mb, server: 213.183.53.177, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_915 |42.12Mb, server: 213.183.53.177, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_917 |30.48Mb, server: 213.183.53.177, port: 9042, type: ssr, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_923 |34.53Mb, server: 213.183.53.177, port: 9097, type: ssr, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_924 |43.79Mb, server: 213.183.53.177, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: UA_1162 |40.06Mb, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
+  - {name: UA_1162 |39.47Mb, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
   - {name: US_2507 |43.26Mb, server: 173.255.215.146, port: 443, type: vmess, uuid: c04e69b1-3498-4187-9193-b657fd40cb65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usav2.ddns.tjiasu.xyz, network: ws, ws-opts: {path: /api/common}}
   - {name: US_2509 |64.48Mb, server: 67.207.92.252, port: 55239, type: vmess, uuid: 1a923713-6220-4246-fd24-7192619740d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: US_2512 |64.87Mb, server: 48us.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 48us.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 48us.fans8.xyz}}}
@@ -44,9 +33,9 @@ proxies:
   - {name: US_2522 |70.35Mb, server: 144.34.248.26, port: 13917, type: vmess, uuid: 00492cd1-7f5e-4ed5-b9ef-821e9b89ca72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 144.34.248.26, network: ws, ws-opts: {path: /}}
   - {name: US_2523 |55.67Mb, server: 107.175.62.31, port: 18205, type: vmess, uuid: 51ffe900-f9a4-4517-b123-9d512d0f5069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: US_2524 |63.41Mb, server: 173.255.215.146, port: 11443, type: vmess, uuid: c04e69b1-3498-4187-9193-b657fd40cb65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usav2.ddns.tjiasu.xyz, network: ws, ws-opts: {path: /api/common}}
-  - {name: US_2545 |70.05Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: US_2548 |32.20Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_2549 |69.55Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: US_2528 |49.36Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2545 |75.21Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: US_2549 |72.66Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
   - {name: ZZ_3251 |41.82Mb, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -69,18 +58,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -93,9 +71,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: ♻️ 自动选择
     type: url-test
@@ -118,18 +96,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -142,9 +109,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: 🌍 国外媒体
     type: select
@@ -167,18 +134,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -191,9 +147,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: 📲 电报信息
     type: select
@@ -215,18 +171,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -239,9 +184,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: Ⓜ️ 微软服务
     type: select
@@ -263,18 +208,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -287,9 +221,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: 🍎 苹果服务
     type: select
@@ -311,18 +245,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -335,9 +258,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: 📢 谷歌FCM
     type: select
@@ -360,18 +283,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -384,9 +296,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
   - name: 🎯 全球直连
     type: select
@@ -425,18 +337,7 @@ proxy-groups:
       - JP_802 |32.60Mb
       - JP_805 |32.48Mb
       - LT_881 |40.86Mb
-      - LT_902 |34.33Mb
-      - LT_903 |40.68Mb
-      - LT_907 |36.55Mb
-      - LT_908 |41.04Mb
-      - LT_910 |35.31Mb
-      - LT_913 |40.33Mb
-      - LT_914 |35.58Mb
-      - LT_915 |42.12Mb
-      - LT_917 |30.48Mb
-      - LT_923 |34.53Mb
-      - LT_924 |43.79Mb
-      - UA_1162 |40.06Mb
+      - UA_1162 |39.47Mb
       - US_2507 |43.26Mb
       - US_2509 |64.48Mb
       - US_2512 |64.87Mb
@@ -449,9 +350,9 @@ proxy-groups:
       - US_2522 |70.35Mb
       - US_2523 |55.67Mb
       - US_2524 |63.41Mb
-      - US_2545 |70.05Mb
-      - US_2548 |32.20Mb
-      - US_2549 |69.55Mb
+      - US_2528 |49.36Mb
+      - US_2545 |75.21Mb
+      - US_2549 |72.66Mb
       - ZZ_3251 |41.82Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
