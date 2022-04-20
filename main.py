@@ -40,7 +40,7 @@ def main(event, context):
         'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dtrojan%2Cvmess%2Cssr&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash.yml')
 
     savePoint(
-        'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dvmess%7Chttps%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dtrojan%7Chttps%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dssr&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash-bihai.yml')
+        'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D200%26type%3Dtrojan%2Cvmess%2Cssr%2Css&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash-pro.yml')
 
     
     # 获取文章地址
