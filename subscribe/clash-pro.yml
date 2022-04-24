@@ -5,405 +5,229 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RO_1169 |312.24Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: US_1402 |252.03Mb, server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_1426 |237.47Mb, server: 142.202.48.78, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_1429 |239.04Mb, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_1476 |224.92Mb, server: 167.88.63.28, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_1530 |213.17Mb, server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_1550 |230.25Mb, server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_1585 |289.06Mb, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_1586 |214.33Mb, server: 38.107.226.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_1677 |222.61Mb, server: 38.107.226.132, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_1749 |255.38Mb, server: 38.107.226.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_1761 |247.12Mb, server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_1816 |237.31Mb, server: 142.202.48.17, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_1817 |211.94Mb, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: US_1908 |249.24Mb, server: 167.88.63.107, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_1958 |205.43Mb, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: US_1967 |253.14Mb, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: US_1968 |214.36Mb, server: 167.88.63.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_1996 |227.96Mb, server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_2044 |228.94Mb, server: 142.202.48.77, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2068 |237.29Mb, server: 142.202.48.78, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_2080 |244.68Mb, server: 167.88.63.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2110 |207.72Mb, server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_2124 |209.29Mb, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_2139 |212.46Mb, server: 142.202.48.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2170 |278.82Mb, server: 38.107.226.49, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2201 |222.03Mb, server: 167.88.63.19, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2244 |269.22Mb, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2271 |292.92Mb, server: 38.107.226.132, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2277 |211.38Mb, server: 167.88.63.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2284 |207.77Mb, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2315 |238.82Mb, server: 38.107.226.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2437 |217.14Mb, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: US_2523 |341.59Mb, server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2576 |247.69Mb, server: 38.91.100.27, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_2588 |284.93Mb, server: 38.91.100.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_2589 |210.65Mb, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_2593 |246.31Mb, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_2597 |221.09Mb, server: 38.91.100.27, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_2668 |216.03Mb, server: 142.202.48.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: US_2675 |218.87Mb, server: 142.202.48.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: US_2702 |386.53Mb, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_3048 |231.56Mb, server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ZZ_3050 |227.53Mb, server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: ZZ_3054 |215.33Mb, server: 169.197.141.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: _07 |254.28Mb, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _14 |212.59Mb, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _15 |253.88Mb, server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _16 |259.72Mb, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _27 |294.66Mb, server: 38.107.226.132, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _28 |448.07Mb, server: 38.107.226.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _34 |301.93Mb, server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _35 |277.14Mb, server: 169.197.141.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _36 |252.19Mb, server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _37 |250.95Mb, server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_190 |200.41Mb, server: 198.57.27.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: CA_192 |200.08Mb, server: 198.57.27.191, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: CA_217 |200.04Mb, server: 198.57.27.188, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CA_218 |274.50Mb, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_220 |202.20Mb, server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: CA_240 |201.96Mb, server: 198.57.27.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_244 |257.56Mb, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_251 |209.49Mb, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_252 |204.66Mb, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_285 |209.31Mb, server: 198.57.27.243, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_293 |202.35Mb, server: 198.57.27.238, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: CA_295 |249.92Mb, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_299 |207.81Mb, server: 198.57.27.152, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -426,51 +250,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_1169 |312.24Mb
-      - US_1402 |252.03Mb
-      - US_1426 |237.47Mb
-      - US_1429 |239.04Mb
-      - US_1476 |224.92Mb
-      - US_1530 |213.17Mb
-      - US_1550 |230.25Mb
-      - US_1585 |289.06Mb
-      - US_1586 |214.33Mb
-      - US_1677 |222.61Mb
-      - US_1749 |255.38Mb
-      - US_1761 |247.12Mb
-      - US_1816 |237.31Mb
-      - US_1817 |211.94Mb
-      - US_1908 |249.24Mb
-      - US_1958 |205.43Mb
-      - US_1967 |253.14Mb
-      - US_1968 |214.36Mb
-      - US_1996 |227.96Mb
-      - US_2044 |228.94Mb
-      - US_2068 |237.29Mb
-      - US_2080 |244.68Mb
-      - US_2110 |207.72Mb
-      - US_2124 |209.29Mb
-      - US_2139 |212.46Mb
-      - US_2170 |278.82Mb
-      - US_2201 |222.03Mb
-      - US_2244 |269.22Mb
-      - US_2271 |292.92Mb
-      - US_2277 |211.38Mb
-      - US_2284 |207.77Mb
-      - US_2315 |238.82Mb
-      - US_2437 |217.14Mb
-      - US_2523 |341.59Mb
-      - US_2576 |247.69Mb
-      - US_2588 |284.93Mb
-      - US_2589 |210.65Mb
-      - US_2593 |246.31Mb
-      - US_2597 |221.09Mb
-      - US_2668 |216.03Mb
-      - US_2675 |218.87Mb
-      - US_2702 |386.53Mb
-      - ZZ_3048 |231.56Mb
-      - ZZ_3050 |227.53Mb
-      - ZZ_3054 |215.33Mb
+      - _07 |254.28Mb
+      - _14 |212.59Mb
+      - _15 |253.88Mb
+      - _16 |259.72Mb
+      - _27 |294.66Mb
+      - _28 |448.07Mb
+      - _34 |301.93Mb
+      - _35 |277.14Mb
+      - _36 |252.19Mb
+      - _37 |250.95Mb
+      - CA_190 |200.41Mb
+      - CA_192 |200.08Mb
+      - CA_217 |200.04Mb
+      - CA_218 |274.50Mb
+      - CA_220 |202.20Mb
+      - CA_240 |201.96Mb
+      - CA_244 |257.56Mb
+      - CA_251 |209.49Mb
+      - CA_252 |204.66Mb
+      - CA_285 |209.31Mb
+      - CA_293 |202.35Mb
+      - CA_295 |249.92Mb
+      - CA_299 |207.81Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
