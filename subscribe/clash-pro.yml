@@ -5,53 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: _01 |222.93Mb, server: 169.197.141.24, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: _24 |294.89Mb, server: 38.107.226.132, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _25 |248.94Mb, server: 38.107.226.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: _32 |215.57Mb, server: 169.197.141.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: _45 |221.27Mb, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: RO_1055 |312.26Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - _01 |222.93Mb
+      - _24 |294.89Mb
+      - _25 |248.94Mb
+      - _32 |215.57Mb
+      - _45 |221.27Mb
+      - RO_1055 |312.26Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
