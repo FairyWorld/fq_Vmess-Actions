@@ -5,53 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: CA_334 |184.54Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-buffalo.lvuft.com, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
+  - {name: CA_335 |229.49Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-buffalo.lvuft.com, network: ws, ws-opts: {path: /ws}}
+  - {name: DE_595 |49.29Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: germany-dusseldorf.mah3Hoet.com, network: ws, ws-opts: {path: /ws}}
+  - {name: DE_596 |56.44Mb, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: 78.46.244.34}
+  - {name: DE_597 |45.48Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: germany-dusseldorf.mah3Hoet.com, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
+  - {name: FR_667 |52.21Mb, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: GB_709 |56.62Mb, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: HU_723 |40.18Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: 185.225.69.134}
+  - {name: JP_820 |32.69Mb, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 45.77.22.155}
+  - {name: LT_900 |105.21Mb, server: 213.183.53.200, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - CA_334 |184.54Mb
+      - CA_335 |229.49Mb
+      - DE_595 |49.29Mb
+      - DE_596 |56.44Mb
+      - DE_597 |45.48Mb
+      - FR_667 |52.21Mb
+      - GB_709 |56.62Mb
+      - HU_723 |40.18Mb
+      - JP_820 |32.69Mb
+      - LT_900 |105.21Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
