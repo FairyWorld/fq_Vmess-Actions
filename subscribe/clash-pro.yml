@@ -5,69 +5,53 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _42 |220.37Mb, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: RU_1214 |279.79Mb, server: 217.30.10.67, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
-  - {name: US_2715 |231.06Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
+  - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,9 +74,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _42 |220.37Mb
-      - RU_1214 |279.79Mb
-      - US_2715 |231.06Mb
+      - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
