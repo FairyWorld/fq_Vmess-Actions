@@ -5,101 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _39 |252.38Mb, server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _40 |232.55Mb, server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _41 |234.66Mb, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _43 |237.62Mb, server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: DE_608 |250.06Mb, server: 5.183.179.140, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
-  - {name: RO_1112 |229.06Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: RO_1113 |257.54Mb, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
+  - {name: _39 |221.15Mb, server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: _40 |239.06Mb, server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,13 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _39 |252.38Mb
-      - _40 |232.55Mb
-      - _41 |234.66Mb
-      - _43 |237.62Mb
-      - DE_608 |250.06Mb
-      - RO_1112 |229.06Mb
-      - RO_1113 |257.54Mb
+      - _39 |221.15Mb
+      - _40 |239.06Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
