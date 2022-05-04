@@ -5,85 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _01 |227.17Mb, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _13 |243.11Mb, server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _14 |249.68Mb, server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: _16 |235.07Mb, server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_205 |207.24Mb, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: RO_1101 |340.34Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: US_1414 |847.28Mb, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -106,11 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _01 |227.17Mb
-      - _13 |243.11Mb
-      - _14 |249.68Mb
-      - _16 |235.07Mb
-      - CA_205 |207.24Mb
+      - RO_1101 |340.34Mb
+      - US_1414 |847.28Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
