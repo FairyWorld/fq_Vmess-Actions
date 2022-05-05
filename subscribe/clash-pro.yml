@@ -5,53 +5,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: CA_213 |203.53Mb, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: US_2600 |234.98Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2613 |211.28Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +90,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - CA_213 |203.53Mb
+      - US_2600 |234.98Mb
+      - US_2613 |211.28Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
