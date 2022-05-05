@@ -5,61 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _16 |222.00Mb, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_197 |224.58Mb, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_200 |244.78Mb, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_259 |236.67Mb, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_290 |255.63Mb, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: DE_469 |260.30Mb, server: 5.183.179.146, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: RO_1084 |219.27Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: US_2586 |212.11Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _16 |222.00Mb
-      - CA_197 |224.58Mb
+      - CA_200 |244.78Mb
+      - CA_259 |236.67Mb
+      - CA_290 |255.63Mb
+      - DE_469 |260.30Mb
+      - RO_1084 |219.27Mb
+      - US_2586 |212.11Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
