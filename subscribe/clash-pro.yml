@@ -5,53 +5,77 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RO_1065 |262.88Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: CA_199 |218.84Mb, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_215 |212.47Mb, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_261 |236.95Mb, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: RO_1069 |298.29Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +98,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_1065 |262.88Mb
+      - CA_199 |218.84Mb
+      - CA_215 |212.47Mb
+      - CA_261 |236.95Mb
+      - RO_1069 |298.29Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
