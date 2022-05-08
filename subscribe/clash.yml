@@ -27,7 +27,7 @@ proxies:
   - {name: LT_1019 |30.89Mb, server: 213.183.53.202, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: LT_1038 |35.83Mb, server: 213.183.53.202, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: US_1363 |34.19Mb, server: 168.138.219.245, port: 43533, type: vmess, uuid: 03b78acf-f658-4057-9a9d-52a2a784080e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 168.138.219.245}
-  - {name: US_1364 |76.77Mb, server: 173.82.251.240, port: 2233, type: vmess, uuid: 1e3847e6-755a-4964-9845-4ac53e39b23c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 173.82.251.240, network: ws, ws-opts: {path: /}}
+  - {name: US_1364 |67.99Mb, server: 173.82.251.240, port: 2233, type: vmess, uuid: 1e3847e6-755a-4964-9845-4ac53e39b23c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 173.82.251.240, network: ws, ws-opts: {path: /}}
   - {name: US_1365 |57.47Mb, server: 96.43.94.111, port: 32092, type: vmess, uuid: 480aea64-b548-492b-bc07-bcd4cf0ac29a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 96.43.94.111, network: ws, ws-opts: {path: /}}
   - {name: US_1370 |47.00Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
   - {name: US_2648 |59.11Mb, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 185.202.172.243}
@@ -38,9 +38,9 @@ proxies:
   - {name: US_2654 |55.59Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: 23.94.120.19}
   - {name: US_2655 |46.90Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-dallas.lvuft.com, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
   - {name: US_2656 |58.48Mb, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_2657 |139.52Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws}}
-  - {name: US_2658 |131.63Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: US_2663 |67.30Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: lvuft.com, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
+  - {name: US_2657 |109.81Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2658 |127.92Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: US_2663 |63.94Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: lvuft.com, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
   - {name: US_2664 |57.93Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: lvuft.com, network: ws, ws-opts: {path: /ws}}
   - {name: US_2670 |64.71Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
   - {name: US_2684 |41.49Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
@@ -48,7 +48,7 @@ proxies:
   - {name: US_2690 |48.40Mb, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
   - {name: US_2693 |71.48Mb, server: us-ny-rn.licom.ga, port: 62007, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, skip-cert-verify: true, udp: true}
   - {name: US_2700 |63.91Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: US_2709 |77.69Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_2709 |81.60Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -77,7 +77,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -88,9 +88,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -98,7 +98,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -127,7 +127,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -138,9 +138,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -148,7 +148,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -177,7 +177,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -188,9 +188,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -198,7 +198,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: 📲 电报信息
     type: select
     proxies:
@@ -226,7 +226,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -237,9 +237,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -247,7 +247,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -275,7 +275,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -286,9 +286,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -296,7 +296,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -324,7 +324,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -335,9 +335,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -345,7 +345,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -374,7 +374,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -385,9 +385,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -395,7 +395,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -440,7 +440,7 @@ proxy-groups:
       - LT_1019 |30.89Mb
       - LT_1038 |35.83Mb
       - US_1363 |34.19Mb
-      - US_1364 |76.77Mb
+      - US_1364 |67.99Mb
       - US_1365 |57.47Mb
       - US_1370 |47.00Mb
       - US_2648 |59.11Mb
@@ -451,9 +451,9 @@ proxy-groups:
       - US_2654 |55.59Mb
       - US_2655 |46.90Mb
       - US_2656 |58.48Mb
-      - US_2657 |139.52Mb
-      - US_2658 |131.63Mb
-      - US_2663 |67.30Mb
+      - US_2657 |109.81Mb
+      - US_2658 |127.92Mb
+      - US_2663 |63.94Mb
       - US_2664 |57.93Mb
       - US_2670 |64.71Mb
       - US_2684 |41.49Mb
@@ -461,7 +461,7 @@ proxy-groups:
       - US_2690 |48.40Mb
       - US_2693 |71.48Mb
       - US_2700 |63.91Mb
-      - US_2709 |77.69Mb
+      - US_2709 |81.60Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
