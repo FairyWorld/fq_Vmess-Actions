@@ -5,69 +5,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RO_1087 |313.42Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: US_2562 |266.73Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
-  - {name: US_2583 |225.45Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: RO_1111 |255.97Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: US_2566 |274.78Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2585 |289.33Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,9 +90,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_1087 |313.42Mb
-      - US_2562 |266.73Mb
-      - US_2583 |225.45Mb
+      - RO_1111 |255.97Mb
+      - US_2566 |274.78Mb
+      - US_2585 |289.33Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
