@@ -5,53 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RO_967 |368.19Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: _26 |254.06Mb, server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: RO_972 |310.44Mb, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RO_967 |368.19Mb
+      - _26 |254.06Mb
+      - RO_972 |310.44Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
