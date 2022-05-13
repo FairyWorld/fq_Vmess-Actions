@@ -5,69 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _40 |238.27Mb, server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_152 |223.14Mb, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_300 |255.78Mb, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_158 |212.50Mb, server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CA_311 |244.48Mb, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,9 +82,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _40 |238.27Mb
-      - CA_152 |223.14Mb
-      - CA_300 |255.78Mb
+      - CA_158 |212.50Mb
+      - CA_311 |244.48Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
