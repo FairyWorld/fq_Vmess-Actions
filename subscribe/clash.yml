@@ -61,21 +61,21 @@ proxies:
   - {name: LT_941 |44.35Mb, server: 213.183.53.200, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: LT_942 |42.64Mb, server: 213.183.53.200, port: 9045, type: ssr, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: RO_1078 |51.09Mb, server: 185.126.116.125, port: 9043, type: ssr, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: US_1217 |65.56Mb, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: US_1217 |83.67Mb, server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
   - {name: US_2417 |54.47Mb, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: US_2423 |54.47Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-dallas.lvuft.com, network: ws, ws-opts: {path: /ws}}
   - {name: US_2425 |42.36Mb, server: app.ssfree.ru, port: 443, type: vmess, uuid: e96ff8a2-d39e-11ec-a5fe-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
   - {name: US_2426 |59.14Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-dallas.lvuft.com, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
   - {name: US_2428 |59.51Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: 23.94.120.19}
   - {name: US_2429 |51.81Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: US_2430 |295.70Mb, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.aqvpn.me}}}
-  - {name: US_2432 |127.04Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws}}
-  - {name: US_2433 |103.62Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: US_2434 |91.26Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2430 |131.51Mb, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us.aqvpn.me}}}
+  - {name: US_2432 |135.97Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2433 |149.78Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: US_2434 |255.30Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-washington.lvuft.com, network: ws, ws-opts: {path: /ws}}
   - {name: US_2445 |50.43Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
   - {name: US_2446 |54.93Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
   - {name: US_2460 |30.33Mb, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, skip-cert-verify: true, udp: true}
-  - {name: US_2461 |77.26Mb, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: US_2461 |80.65Mb, server: o7cx6bd6t4yjiqsm.xiongsonglin.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
   - {name: US_2472 |37.36Mb, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -139,21 +139,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: ♻️ 自动选择
     type: url-test
@@ -217,21 +217,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: 🌍 国外媒体
     type: select
@@ -295,21 +295,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: 📲 电报信息
     type: select
@@ -372,21 +372,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: Ⓜ️ 微软服务
     type: select
@@ -449,21 +449,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: 🍎 苹果服务
     type: select
@@ -526,21 +526,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: 📢 谷歌FCM
     type: select
@@ -604,21 +604,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
   - name: 🎯 全球直连
     type: select
@@ -698,21 +698,21 @@ proxy-groups:
       - LT_941 |44.35Mb
       - LT_942 |42.64Mb
       - RO_1078 |51.09Mb
-      - US_1217 |65.56Mb
+      - US_1217 |83.67Mb
       - US_2417 |54.47Mb
       - US_2423 |54.47Mb
       - US_2425 |42.36Mb
       - US_2426 |59.14Mb
       - US_2428 |59.51Mb
       - US_2429 |51.81Mb
-      - US_2430 |295.70Mb
-      - US_2432 |127.04Mb
-      - US_2433 |103.62Mb
-      - US_2434 |91.26Mb
+      - US_2430 |131.51Mb
+      - US_2432 |135.97Mb
+      - US_2433 |149.78Mb
+      - US_2434 |255.30Mb
       - US_2445 |50.43Mb
       - US_2446 |54.93Mb
       - US_2460 |30.33Mb
-      - US_2461 |77.26Mb
+      - US_2461 |80.65Mb
       - US_2472 |37.36Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
